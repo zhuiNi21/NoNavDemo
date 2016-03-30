@@ -30,7 +30,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    self.interactivePopGestureRecognizer.enabled = NO; 
     
 }
 
